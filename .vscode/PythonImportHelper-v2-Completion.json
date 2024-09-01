@@ -1,0 +1,454 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "session_state",
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "isExtraImport": true,
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "googlemaps",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "googlemaps",
+        "description": "googlemaps",
+        "detail": "googlemaps",
+        "documentation": {}
+    },
+    {
+        "label": "Nominatim",
+        "importPath": "geopy.geocoders",
+        "description": "geopy.geocoders",
+        "isExtraImport": true,
+        "detail": "geopy.geocoders",
+        "documentation": {}
+    },
+    {
+        "label": "networkx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "networkx",
+        "description": "networkx",
+        "detail": "networkx",
+        "documentation": {}
+    },
+    {
+        "label": "dijkstra_path",
+        "importPath": "networkx.algorithms.shortest_paths.weighted",
+        "description": "networkx.algorithms.shortest_paths.weighted",
+        "isExtraImport": true,
+        "detail": "networkx.algorithms.shortest_paths.weighted",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit.components.v1",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit.components.v1",
+        "description": "streamlit.components.v1",
+        "detail": "streamlit.components.v1",
+        "documentation": {}
+    },
+    {
+        "label": "get_geolocation",
+        "importPath": "streamlit_js_eval",
+        "description": "streamlit_js_eval",
+        "isExtraImport": true,
+        "detail": "streamlit_js_eval",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "folium",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "folium",
+        "description": "folium",
+        "detail": "folium",
+        "documentation": {}
+    },
+    {
+        "label": "folium_static",
+        "importPath": "streamlit_folium",
+        "description": "streamlit_folium",
+        "isExtraImport": true,
+        "detail": "streamlit_folium",
+        "documentation": {}
+    },
+    {
+        "label": "polyline",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "polyline",
+        "description": "polyline",
+        "detail": "polyline",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_change_in_evaluation",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def calculate_change_in_evaluation(difficulty):\n    if difficulty == -5:\n        return -5000*0.3048\n    elif difficulty == -4:\n        return -3000*0.3048\n    elif difficulty == -3:\n        return -2000*0.3048\n    elif difficulty == -2:\n        return -1000*0.3048\n    elif difficulty == -1:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_elevation",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_elevation(location):\n    lat, lng = location\n    elevation_url = f\"https://maps.googleapis.com/maps/api/elevation/json?locations={lat},{lng}&key={API_KEY}\"\n    response = requests.get(elevation_url).json()\n    return response[\"results\"][0][\"elevation\"] if response[\"results\"] else 0\ndef get_routes(origin_lat, origin_lon, destination_lat, destination_lon, mode=\"walking\"):\n    try:\n        base_url = \"https://maps.googleapis.com/maps/api/directions/json\"\n        origin = f\"{origin_lat},{origin_lon}\"\n        destination = f\"{destination_lat},{destination_lon}\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_routes",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_routes(origin_lat, origin_lon, destination_lat, destination_lon, mode=\"walking\"):\n    try:\n        base_url = \"https://maps.googleapis.com/maps/api/directions/json\"\n        origin = f\"{origin_lat},{origin_lon}\"\n        destination = f\"{destination_lat},{destination_lon}\"\n        params = {\n            \"origin\": origin,\n            \"destination\": destination,\n            \"mode\": mode,\n            \"alternatives\": \"true\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_city_name",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_city_name(lat, lon):\n    \"\"\"Get city name from latitude and longitude using Google Maps Geocoding API.\"\"\"\n    url = f'https://maps.googleapis.com/maps/api/geocode/json?latlng={lat},{lon}&key={API_KEY}'\n    response = requests.get(url)\n    if response.status_code == 200:\n        results = response.json().get('results', [])\n        if results:\n            for component in results[0]['address_components']:\n                if 'locality' in component['types']:\n                    return component['long_name']",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "display_route",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def display_route(route_data):\n    # Extract start and end coordinates\n    start_location = route_data['legs'][0]['start_location']\n    end_location = route_data['legs'][0]['end_location']\n    # Create a map centered on the start location\n    m = folium.Map(location=[start_location['lat'], start_location['lng']], zoom_start=15)\n    # Add start and end markers\n    folium.Marker(\n        [start_location['lat'], start_location['lng']],\n        popup='Start',",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_graph_and_find_shortest_route",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def create_graph_and_find_shortest_route(\n    routes, max_time, weight_time, weight_elevation\n):\n    G = nx.DiGraph()\n    for route in routes:\n        leg = route[\"legs\"][0]\n        total_duration = leg[\"duration\"][\"value\"]\n        if total_duration > max_time:\n            continue\n        for step in leg[\"steps\"]:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_nearby_places",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_all_nearby_places(radius=500000, place_type=\"point_of_interest\"):\n    gmaps = googlemaps.Client(key=API_KEY)\n    origin_lat = session_state[\"LOCATION\"][\"latitude\"]\n    origin_lon = session_state[\"LOCATION\"][\"longitude\"]\n    all_results = []\n    # Initial request\n    nearby_places = gmaps.places_nearby(\n        location=(origin_lat, origin_lon),\n        radius=radius,\n        type=place_type",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_time",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def minimum_time(origin_lat, origin_lon, destination_lat, destination_lon, mode=\"walking\"):\n    base_url = \"https://maps.googleapis.com/maps/api/directions/json\"\n    origin = f\"{origin_lat},{origin_lon}\"\n    destination = f\"{destination_lat},{destination_lon}\"\n    params = {\n        \"origin\": origin,\n        \"destination\": destination,\n        \"mode\": mode,\n        \"key\": API_KEY\n    }",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "search_nearby_places",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def search_nearby_places(location, radius, types):\n    base_url = \"https://maps.googleapis.com/maps/api/place/nearbysearch/json\"\n    params = {\n        \"location\": location,\n        \"radius\": radius,\n        \"type\": types,\n        \"key\": API_KEY\n    }\n    response = requests.get(base_url, params=params)\n    if response.status_code != 200:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_recommendations",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_recommendations(preferences):\n    try:\n        origin_lat = session_state[\"LOCATION\"][\"latitude\"]\n        origin_lon = session_state[\"LOCATION\"][\"longitude\"]\n        with st.spinner(\"Finding nearby places...\"):\n            nearby_places = get_all_nearby_places()\n        mode = preferences[\"mode\"]\n        max_time = preferences[\"max_time\"]\n        landmarks = preferences[\"landmarks\"]\n        change_in_elevation = calculate_change_in_evaluation(preferences[\"change_in_elevation\"])",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "user_exists",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def user_exists(email, json_file_path):\n    # Function to check if user with the given email exists\n    with open(json_file_path, \"r\") as file:\n        users = json.load(file)\n        for user in users[\"users\"]:\n            if user[\"email\"] == email:\n                return True\n    return False\ndef send_verification_code(email, code):\n    RECEIVER = email",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "send_verification_code",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def send_verification_code(email, code):\n    RECEIVER = email\n    server = smtplib.SMTP_SSL(\"smtp.googlemail.com\", 465)\n    server.login(SENDER_MAIL_ID, APP_PASSWORD)\n    message = f\"Subject: Your Verification Code\\n\\nYour verification code is: {code}\"\n    server.sendmail(SENDER_MAIL_ID, RECEIVER, message)\n    server.quit()\n    st.success(\"Email sent successfully!\")\n    return True\ndef generate_verification_code(length=6):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "generate_verification_code",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def generate_verification_code(length=6):\n    return \"\".join(random.choices(string.ascii_uppercase + string.digits, k=length))\ndef signup(json_file_path=\"data.json\"):\n    st.title(\"Signup Page\")\n    with st.form(\"signup_form\"):\n        st.write(\"Fill in the details below to create an account:\")\n        name = st.text_input(\"Name:\")\n        email = st.text_input(\"Email:\")\n        age = st.number_input(\"Age:\", min_value=0, max_value=120)\n        sex = st.radio(\"Sex:\", (\"Male\", \"Female\", \"Other\"))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "signup",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def signup(json_file_path=\"data.json\"):\n    st.title(\"Signup Page\")\n    with st.form(\"signup_form\"):\n        st.write(\"Fill in the details below to create an account:\")\n        name = st.text_input(\"Name:\")\n        email = st.text_input(\"Email:\")\n        age = st.number_input(\"Age:\", min_value=0, max_value=120)\n        sex = st.radio(\"Sex:\", (\"Male\", \"Female\", \"Other\"))\n        password = st.text_input(\"Password:\", type=\"password\")\n        confirm_password = st.text_input(\"Confirm Password:\", type=\"password\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "check_login",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def check_login(username, password, json_file_path=\"data.json\"):\n    try:\n        with open(json_file_path, \"r\") as json_file:\n            data = json.load(json_file)\n        for user in data[\"users\"]:\n            if user[\"email\"] == username and user[\"password\"] == password:\n                session_state[\"logged_in\"] = True\n                session_state[\"user_info\"] = user\n                st.success(\"Login successful!\")\n                return user",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_database",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def initialize_database(json_file_path=\"data.json\"):\n    try:\n        if not os.path.exists(json_file_path):\n            data = {\"users\": []}\n            with open(json_file_path, \"w\") as json_file:\n                json.dump(data, json_file)\n    except Exception as e:\n        print(f\"Error initializing database: {e}\")\ndef create_account(name, email, age, sex, password, json_file_path=\"data.json\"):\n    try:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_account",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def create_account(name, email, age, sex, password, json_file_path=\"data.json\"):\n    try:\n        if not os.path.exists(json_file_path) or os.stat(json_file_path).st_size == 0:\n            data = {\"users\": []}\n        else:\n            with open(json_file_path, \"r\") as json_file:\n                data = json.load(json_file)\n        # Append new user data to the JSON structure\n        email = email.lower()\n        password = hashlib.md5(password.encode()).hexdigest()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def login(json_file_path=\"data.json\"):\n    st.title(\"Login Page\")\n    username = st.text_input(\"Email:\")\n    password = st.text_input(\"Password:\", type=\"password\")\n    username = username.lower()\n    password = hashlib.md5(password.encode()).hexdigest()\n    login_button = st.button(\"Login\")\n    if login_button:\n        user = check_login(username, password, json_file_path)\n        if user is not None:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_info",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_user_info(email, json_file_path=\"data.json\"):\n    try:\n        with open(json_file_path, \"r\") as json_file:\n            data = json.load(json_file)\n        for user in data[\"users\"]:\n            if user[\"email\"] == email:\n                return user\n        return None\n    except Exception as e:\n        st.error(f\"Error getting user info: {e}\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "render_dashboard",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def render_dashboard(user_info):\n    st.header(f\"Welcome, {user_info['name']}!\")\n    if LOCATION:\n        st.subheader(\"User Location\")\n        st.info(f\"Latitude: {LOCATION['latitude']}\")\n        st.info(f\"Longitude: {LOCATION['longitude']}\")\n        st.info(f\"City: {get_city_name(LOCATION['latitude'], LOCATION['longitude'])}\")\n        map_html = f'''\n            <iframe\n                width=\"600\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def main(json_file_path=\"data.json\"):\n    page = st.sidebar.selectbox(\n        \"Go to\",\n        (\n            \"Signup/Login\",\n            \"Dashboard\",\n            \"Take me for a walk\",\n        ),\n        key=\"page\",\n    )",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "session_state",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "session_state = st.session_state\nif \"user_index\" not in st.session_state:\n    st.session_state[\"user_index\"] = 0\nif \"user_info\" not in st.session_state:\n    st.session_state[\"user_info\"] = None\nif \"logged_in\" not in st.session_state:\n    st.session_state[\"logged_in\"] = False\nif \"lat\" not in st.session_state:\n    st.session_state[\"latitude\"] = None\nif \"lon\" not in st.session_state:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "LOCATION",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "LOCATION = session_state[\"LOCATION\"]\nSENDER_MAIL_ID = os.getenv(\"SENDER_MAIL_ID\")\nAPP_PASSWORD = os.getenv(\"APP_PASSWORD\")\nAPI_KEY = os.getenv(\"GOOGLE_MAPS_API_KEY\")\nst.set_page_config(\n    page_title=\"Take me for a walk\",\n    page_icon=\"favicon.ico\",\n    layout=\"wide\",\n    initial_sidebar_state=\"auto\",\n    menu_items={",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "SENDER_MAIL_ID",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "SENDER_MAIL_ID = os.getenv(\"SENDER_MAIL_ID\")\nAPP_PASSWORD = os.getenv(\"APP_PASSWORD\")\nAPI_KEY = os.getenv(\"GOOGLE_MAPS_API_KEY\")\nst.set_page_config(\n    page_title=\"Take me for a walk\",\n    page_icon=\"favicon.ico\",\n    layout=\"wide\",\n    initial_sidebar_state=\"auto\",\n    menu_items={\n        \"Get Help\": \"https://www.extremelycoolapp.com/help\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "APP_PASSWORD",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "APP_PASSWORD = os.getenv(\"APP_PASSWORD\")\nAPI_KEY = os.getenv(\"GOOGLE_MAPS_API_KEY\")\nst.set_page_config(\n    page_title=\"Take me for a walk\",\n    page_icon=\"favicon.ico\",\n    layout=\"wide\",\n    initial_sidebar_state=\"auto\",\n    menu_items={\n        \"Get Help\": \"https://www.extremelycoolapp.com/help\",\n        \"Report a bug\": \"https://www.extremelycoolapp.com/bug\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "API_KEY = os.getenv(\"GOOGLE_MAPS_API_KEY\")\nst.set_page_config(\n    page_title=\"Take me for a walk\",\n    page_icon=\"favicon.ico\",\n    layout=\"wide\",\n    initial_sidebar_state=\"auto\",\n    menu_items={\n        \"Get Help\": \"https://www.extremelycoolapp.com/help\",\n        \"Report a bug\": \"https://www.extremelycoolapp.com/bug\",\n        \"About\": \"# This is a header. This is an *extremely* cool app!\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "gmaps",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "gmaps = googlemaps.Client(key=API_KEY)\n# Initialize the Nominatim geocoder\ngeolocator = Nominatim(user_agent=\"my_app\")\ndef calculate_change_in_evaluation(difficulty):\n    if difficulty == -5:\n        return -5000*0.3048\n    elif difficulty == -4:\n        return -3000*0.3048\n    elif difficulty == -3:\n        return -2000*0.3048",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "geolocator",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "geolocator = Nominatim(user_agent=\"my_app\")\ndef calculate_change_in_evaluation(difficulty):\n    if difficulty == -5:\n        return -5000*0.3048\n    elif difficulty == -4:\n        return -3000*0.3048\n    elif difficulty == -3:\n        return -2000*0.3048\n    elif difficulty == -2:\n        return -1000*0.3048",
+        "detail": "app",
+        "documentation": {}
+    }
+]
