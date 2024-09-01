@@ -22,7 +22,7 @@ Before you can run the application, make sure you have the following installed:
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/takemeforawalk.git
+    git clone https://github.com/Roshan-bhalaji/takemeforawalk.git
     cd takemeforawalk
     ```
 
@@ -43,12 +43,8 @@ Before you can run the application, make sure you have the following installed:
 
     ```plaintext
  
-    APP_PASSWORD=your_app_password
     GOOGLE_MAPS_API_KEY=your_google_maps_api_key
     ```
-
-    Replace `your_email@gmail.com`, `your_app_password`, and `your_google_maps_api_key` with your actual credentials and API key.
-
 ## Running the Application
 
 To run the application, navigate to the project directory and execute the following command:
