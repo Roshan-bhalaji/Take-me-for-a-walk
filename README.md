@@ -42,7 +42,7 @@ Before you can run the application, make sure you have the following installed:
     Create a `.env` file in the root directory of your project and add the following variables:
 
     ```plaintext
-    SENDER_MAIL_ID=your_email@gmail.com
+ 
     APP_PASSWORD=your_app_password
     GOOGLE_MAPS_API_KEY=your_google_maps_api_key
     ```
